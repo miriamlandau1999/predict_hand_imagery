@@ -43,7 +43,8 @@ Each trial is processed to extract statistical features:
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the notebooks in order:
-   - `01_exploratory_data_analysis.ipynb`
+   - `01_data_loading_and_overview.ipynb`
+   - `02_exploratory_data_analysis.ipynb`
    - [Additional notebooks to be added]
 
 ## Interview Preparation Focus
