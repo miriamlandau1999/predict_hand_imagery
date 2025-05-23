@@ -177,3 +177,5 @@ cython_debug/
 .dstore
 .DS_Store
 
+# autogluon models
+models/autogluon/
