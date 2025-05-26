@@ -26,15 +26,17 @@ Each trial is processed to extract statistical features:
 
 ## Technical Stack
 - **MNE-Python**: EEG signal processing and analysis
-- **Pandas**:
-- **NumPy**: 
-- **Scikit-learn**: 
+- **Pandas**
+- **NumPy**
+- **Scikit-learn**
+- **Autogluon**
 
 ## Project Structure
 ```
 ├── data/
 │   ├── raw/          # Original EEG recordings
-│   └── processed/    # feature-extracted data in csv
+│   └── interim/      # feature-extracted data in csv
+│   └── processed/    # train and test data in csv
 ├── notebooks/        # Jupyter notebooks
 └── requirements.txt  # Project dependencies
 ```
@@ -45,7 +47,10 @@ Each trial is processed to extract statistical features:
 3. Run the notebooks in order:
    - `01_data_loading_and_overview.ipynb`
    - `02_exploratory_data_analysis.ipynb`
-   - [Additional notebooks to be added]
+   - `03_preprocessing.ipynb`
+   - `04_model_training.ipynb`
+   - `05_auto_ml_training.ipynb`
+
 
 ## Interview Preparation Focus
 This project demonstrates:
